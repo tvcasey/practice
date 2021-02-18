@@ -52,26 +52,28 @@ export default class Buttonclick extends Component {
             }
         render() {
             return (
-                <div className="Buttonclick">
-                    <header className="Header">
+                <div className="container-fluid">
+                    <div className="row">
+                    <header className="col-sm-2">
                         <h1>Click the Country</h1>
                         <h3>Pass Data with onClick</h3>
                         <br />
                     </header>
-                <div>
-                    {this.state.Data.map((item, index) => (
-                        <p>
-                            <a onClick={this.clickMe.bind(this, item)}>
-                                {item.country}
-                                <br />
-                                <br />
-                                {item.GDP}
-                            </a>
-                        </p>
-
-                    
-                    ))}
-                </div>
+                        <div className="col-sm-5">
+                            {this.state.Data.map((item, index) => (
+                                <p className="col-sm-5">
+                                    <a onClick={this.clickMe.bind(this, item)}>
+                                        {item.country}
+                                        <br />
+                                        <br />
+                                        {item.GDP}
+                                    </a>
+                                </p>
+                        
+                            
+                            ))}
+                        </div>
+                        </div>
 
 
 
