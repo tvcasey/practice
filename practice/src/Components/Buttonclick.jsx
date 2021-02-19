@@ -3,6 +3,7 @@
 import React, {Component} from "react";
 import './components.css';
 import App from "../App";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Buttonclick extends Component {
 
@@ -54,12 +55,12 @@ export default class Buttonclick extends Component {
             return (
                 <div className="container-fluid">
                     <div className="row">
-                    <header className="col-sm-2">
-                        <h1>Click the Country</h1>
-                        <h3>Pass Data with onClick</h3>
-                        <br />
-                    </header>
-                        <div className="col-sm-5">
+                        <header className="col-lg-12">
+                            <h1 className="col-sm-1">Click the Country</h1>
+                            <h3>Pass Data with onClick. dkdj jajjdljl jdljldjslj flsjldjl jflsajld jfldjlfjd kajdkljfjj djjaldjalj djaljdjjadjaldj dlslkjl kjlsj</h3>
+                            <br />
+                        </header>
+                        <div className="col-md-4">
                             {this.state.Data.map((item, index) => (
                                 <p className="col-sm-5">
                                     <a onClick={this.clickMe.bind(this, item)}>
