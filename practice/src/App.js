@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './Components/components.css';
 import Buttonclick from "./Components/Buttonclick";
 import Buttonswitch from "./Components/Buttonswitch";
 import Buttonclick3 from "./Components/Buttonclick3";

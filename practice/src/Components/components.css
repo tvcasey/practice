@@ -5,3 +5,14 @@
     text-align: center;
    
 }*/
+
+.Buttonclick {
+    color: peachpuff;
+}
+
+.Buttonclick .col-sm-5{
+    position: absolute;
+    padding: 50px;
+    border: 5px solid black;
+    margin: 100px;
+}

@@ -2,6 +2,21 @@
   text-align: center;
 }*/
 
+.App {
+  color: purple;
+  background-color: black;
+  margin: 100px;
+  border: 10px solid red;
+  text-align: center;
+}
+
+.App.Buttonclick {
+  text-align: right;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 100px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

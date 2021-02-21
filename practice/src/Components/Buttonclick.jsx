@@ -2,7 +2,7 @@
 
 import React, {Component} from "react";
 import './components.css';
-import App from "../App";
+import '../App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Buttonclick extends Component {
