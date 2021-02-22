@@ -5,3 +5,5 @@ Please disregard the playground file.  Git commands could not get the informatio
 2-21-21
 
 Trying to figure out CSS.  The actual characteristics and descriptions are fairly logical.  Arranging position and styling is done through the App.css, but I'm trying to figure out how to pin point the exact styling to the right className given react bootstrap.  I'll figure it out and once I do I'm going to play with the styling until I get a firm grasp of CSS & Bootstrap.  I think I'll have the eureka moment early this week.
+
+Need to look at Buttonclick4 to try to get the onClick to work.  Then on to the onChange for Log Rocket.
