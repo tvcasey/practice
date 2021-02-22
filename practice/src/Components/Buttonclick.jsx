@@ -1,7 +1,7 @@
 
 
 import React, {Component} from "react";
-import './components.css';
+import './Components.css';
 import '../App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -56,7 +56,7 @@ export default class Buttonclick extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <header className="col-lg-12">
-                            <h1 className="col-sm-1">Click the Country</h1>
+                            <h1 className="col-md-6">Click the Country</h1>
                             <h3>Pass Data with onClick. dkdj jajjdljl jdljldjslj flsjldjl jflsajld jfldjlfjd kajdkljfjj djjaldjalj djaljdjjadjaldj dlslkjl kjlsj</h3>
                             <br />
                         </header>

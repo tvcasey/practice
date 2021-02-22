@@ -7,11 +7,14 @@
 }*/
 
 .Buttonclick {
-    color: peachpuff;
+    text-align: center;
+    
 }
 
-.Buttonclick .col-sm-5{
-    position: absolute;
+.Buttonclick.col-md-4.col-sm-5{
+    /*position: absolute;
+    right: 0;
+    top: 0;*/
     padding: 50px;
     border: 5px solid black;
     margin: 100px;
