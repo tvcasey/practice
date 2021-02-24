@@ -1,8 +1,7 @@
 
 
 import React, {Component} from "react";
-import './Components.css';
-import '../App';
+//import styles from './Buttonclick.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Buttonclick extends Component {

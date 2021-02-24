@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import './Components/Components.css';
+//import styles from './Components/Components.module.css';
 import Buttonclick from "./Components/Buttonclick";
 import Buttonswitch from "./Components/Buttonswitch";
 import Buttonclick3 from "./Components/Buttonclick3";
@@ -29,5 +29,7 @@ const App = () => {
 
   );
 }
+
+
 
 export default App;
