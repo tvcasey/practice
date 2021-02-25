@@ -8,6 +8,7 @@ import Buttonclick2 from "./Components/Buttonclick2";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Buttonclick4 from "./Components/Buttonclick4";
 import Onchange1 from "./Components/Onchange1";
+import Hooksclick1 from "./Components/Hooksclick1";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Buttonclick2/>
       <Buttonclick4/>
       <Onchange1/>
+      <Hooksclick1/>
       <h1>Hello World</h1>
       <p className="col-md-6">This is an application to figure out event handlers and on..events.
         It is going to be fun, but it won't accomplish much as an application.
