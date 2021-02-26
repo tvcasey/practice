@@ -16,3 +16,25 @@ TO FIX NODE_MODULE PROBLEMS AT THE NPM START:
 2.  delete node_modules folder
 3.  delete package-lock.json file
 4.  npm install
+
+TO SETUP REACT FOR CSS (SIMPLIST METHOD):
+
+1.  Setting up Webpack
+        npm i css-loader style-loader --save-dev
+2.  set up a webpack.config.js file on the same directory as App.css.
+3.  Add the following code in the App.css.
+    module.exports = {
+    module: {        
+        test: /\.css$/,
+        use: [ 
+                "style-loader",
+                "css-loader" 
+             ]    
+  }};
+4.  CSS Works!  Don't forget to import with "../App.css"
+
+SEE: Mosh Hamedani- Coding with Mosh.
+
+*** Also, to get the CSS to work take the className and use only that i.e.    .world {
+        border: solid white;
+}

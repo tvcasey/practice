@@ -3,6 +3,7 @@
 import React, {Component} from "react";
 //import styles from './Buttonclick.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css';
 
 export default class Buttonclick extends Component {
 
@@ -61,7 +62,7 @@ export default class Buttonclick extends Component {
                         </header>
                         <div className="col-md-4">
                             {this.state.Data.map((item, index) => (
-                                <p className="col-sm-5">
+                                <p className="world">
                                     <a onClick={this.clickMe.bind(this, item)}>
                                         {item.country}
                                         <br />
