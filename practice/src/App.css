@@ -24,3 +24,11 @@ p.col-sm-5  {
   text-align: center;
   font-size: 25px;
 }
+.jargon {
+  height: 75px;
+  width: 75px;
+  font-size: 25px;
+}
+.struggle {
+  font-size: 25px;
+}
