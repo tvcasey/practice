@@ -4,12 +4,12 @@ import React, { useState } from 'react';
 // and add up to a solution- will adapt to Onchange3.
 
 function PasswordStrength(props) {
-    const [strength, setStrength] = useState(" ");
+    const [strength, setStrength] = useState("weak");
     const [password, setPassword] = useState(" ");
     const handleChange = ({ target }) => {
         setPassword(target.value);
         let score = 0;
-        if (password.length >= 6) {
+        if (password >= 6) {
             score += 1;
         }
         if ((password.match(/A-Z/g) || []).length >= 1) {
@@ -25,6 +25,7 @@ function PasswordStrength(props) {
         }   else if (score === 3){
             setStrength("Strong");
         }
+        return score;
         // switch(score) {
         //     case 1: setStrength("weak");
         //         break;
@@ -41,7 +42,7 @@ function PasswordStrength(props) {
                     <input type="password" className="jargon" value={password}
                         onChange={handleChange} />
                     <span>How Strong Is This Password</span>
-                    <span className="struggle" {...strength}>
+                    <span className={strength}>
                         {strength.toUpperCase()}</span>
                     <ul>
                         <li>At least 6 charcters long</li>
