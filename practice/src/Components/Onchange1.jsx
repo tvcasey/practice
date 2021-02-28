@@ -16,8 +16,8 @@ class Onchange1 extends React.Component {
 
     render() {
         return (
-            <div>
-                <label htmlFor="name">Put In Your Name</label>
+            <div className="mixed">
+                <label className="beginning" htmlFor="name">Put In Your Name</label>
                 <input type="text" id="name" onChange={this.changeText.bind(this)} />
                 <h1>{this.state.name}</h1>
             </div>

@@ -38,3 +38,6 @@ SEE: Mosh Hamedani- Coding with Mosh.
 *** Also, to get the CSS to work take the className and use only that i.e.    .world {
         border: solid white;
 }
+
+
+5.  Component PasswordStrength doesn't seem to accept the answer in the input and is stuck on WEAK.  The tabulation of the numbers is not working.  I'm wondering if the switch case is done right.  The strength variable may have to be put back to "weak" for a variable start.  I'm going to do a few more onChange examples to learn more and come back to this.  Tutorial is in favorites.

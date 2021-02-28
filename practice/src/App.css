@@ -45,3 +45,23 @@ p.col-sm-5  {
 .struggle {
   font-size: 25px;
 }
+
+
+
+
+
+
+.mixed {
+  background-color: pink;
+  position: absolute;
+  width: 40%;
+  top: 400px;
+}
+
+
+.beginning {
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+
+}
